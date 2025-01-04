@@ -47,4 +47,4 @@ jobs:
         tag_name: v${GITHUB_REF_NAME}
         prerelease: false
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.m_GITHUB_TOKEN }}
