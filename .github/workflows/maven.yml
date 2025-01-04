@@ -43,8 +43,8 @@ jobs:
         files: |
           target/*.jar
         body: |
-          Release of version ${GITHUB_REF_NAME}
-        tag_name: v${GITHUB_REF_NAME}
+          Release of version action_build
+        tag_name: action_build
         prerelease: false
       env:
         GITHUB_TOKEN: ${{ secrets.m_GITHUB_TOKEN }}
