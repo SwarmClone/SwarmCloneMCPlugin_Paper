@@ -27,7 +27,7 @@ jobs:
     - name: Upload JAR Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: java-app
+        name: SwarmClone Mc Plugin (Paper)
         path: target/*.jar
 
     - name: Create Release and Upload Artifact
